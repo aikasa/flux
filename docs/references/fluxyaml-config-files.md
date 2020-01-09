@@ -232,7 +232,9 @@ several times.
 container. This means that the executables mentioned in commands must
 be available in the running fluxd container.
 
-Flux currently includes `kustomize`, `sops` and basic Unix shell tools. If the
+Flux currently includes `kustomize`, `sops` and basic Unix shell tools.
+If the tools in the Flux image are not sufficient for your use case,
+you have some options:
 tools in the Flux image are not sufficient for your use case, you have
 some options:
 
